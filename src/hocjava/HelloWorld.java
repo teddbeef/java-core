@@ -3,6 +3,7 @@ package hocjava;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World with Java");
+		int tinh = 5 + 9 * 3 - 10 / 2;
+		System.out.println("Sum: " + tinh);
 	}
 }
