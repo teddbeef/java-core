@@ -13,6 +13,6 @@ public class HelloWorld {
 		int age = scanner.nextInt();
 
 		System.out.println("My name is " + name + " and I am " + age + " year old");
-		scanner.close();
+		scanner.close(); // using this to save memory
 	}
 }
