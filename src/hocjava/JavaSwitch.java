@@ -34,5 +34,6 @@ public class JavaSwitch {
 			System.out.println("Dunno");
 			break;
 		}
+		sc.close();
 	}
 }

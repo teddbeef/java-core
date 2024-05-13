@@ -19,5 +19,6 @@ public class JavaIfElse {
 		} else {
 			System.out.println("You need to pay 50% of the total tax");
 		}
+		sc.close();
 	}
 }
