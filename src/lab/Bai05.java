@@ -11,7 +11,7 @@ public class Bai05 {
 		int value = sc.nextInt();
 		int count = 0;
 
-		for (int i = 2; i <= value - 1; i++) {
+		for (int i = 2; i < value; i++) {
 			if (value % i == 0) {
 				System.out.println("Uoc so nguyen khac: " + i);
 				count++;
